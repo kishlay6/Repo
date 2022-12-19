@@ -69,6 +69,7 @@
                 <!--</executions>-->
             <!--</plugin>-->
         </plugins>
+      <finalName>mavenfile</finalName>
     </build>
 
 </project>
