@@ -3,10 +3,10 @@ kind: Deployment
 metadata:
   name: hello-world-deployment
 spec:
-selector:
+ selector:
       app: hello-world
-  replicas: 1 
-  template:
+ replicas:1 
+ template:
     metadata:
       labels:
         app: hello-world
