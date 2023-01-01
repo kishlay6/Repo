@@ -5,8 +5,8 @@ metadata:
   name: hello-world-deployment
 spec:
   selector:
-  matchLabels:
-    app: a
+    matchLabels:
+      app: a
   replicas: 1
   template:
     metadata:
